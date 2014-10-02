@@ -7,7 +7,7 @@ public class triangle {
 		// ret 2 - tam giac deu
 		// ret 3 - tam giac can
 		// ret 4 - tam giac vuong
-		if (((a + b) > c) && ((b + c) > a) && ((c + a) > b))
+		if (((a + b) > c) && ((b + c) > a) && ((c + a) > b) && (a > 0) && (b > 0) && (c > 0))
 		{
 			if ((a == b) && ( b == c))
 				return 2;
